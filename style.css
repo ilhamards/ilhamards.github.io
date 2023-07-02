@@ -6,7 +6,59 @@ body {
   overflow-x: hidden;
   font-weight: 300;
 }
-
+.wrapper{
+    display: flex;
+  }
+  .wrapper .static-txt{
+    color: red;
+    font-size: 60px;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+  }
+  .wrapper .dynamic-txts{
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    right: 15px;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ECF0F3;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
 .section{
     height: 100vh;
 }
@@ -30,7 +82,7 @@ body {
     color: red;
 }
 .welcome .skills {
-    font-size: 50px;
+    
     letter-spacing: 3px;
     font-family: 'Belanosima', sans-serif;
     color: red;
@@ -420,6 +472,62 @@ body {
         height: 100%;
     }
 
+    .wrapper{
+        display: flex;
+        position: relative;
+        bottom: 20px;
+      }
+      .wrapper .static-txt{
+        color: red;
+        font-size: 40px;
+        font-weight: 400;
+        position: relative;
+        top: 11px;
+      }
+      .wrapper .dynamic-txts{
+        height: 90px;
+        line-height: 90px;
+        overflow: hidden;
+      }
+      .dynamic-txts li{
+        list-style: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        right: 5px;
+        animation: slide 12s steps(4) infinite;
+      }
+      @keyframes slide {
+        100%{
+          top: -360px;
+        }
+      }
+      .dynamic-txts li span{
+        position: relative;
+        margin: 5px 0;
+        line-height: 90px;
+      }
+      .dynamic-txts li span::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #ECF0F3;
+        border-left: 2px solid #FC6D6D;
+        animation: typing 3s steps(10) infinite;
+      }
+      @keyframes typing {
+        40%, 60%{
+          left: calc(100% + 30px);
+        }
+        100%{
+          left: 0;
+        }
+      }
     .welcome {
         color: #000;
         padding-top: 80px;
@@ -451,6 +559,8 @@ body {
     .welcome .deskripsi {
         text-align: justify;
         font-family: 'Kanit', sans-serif;
+        position: relative;
+        bottom: 40px;
     }
     .imagehome{
     width: 100%;
@@ -512,6 +622,63 @@ body {
         height: 100%;
     }
 
+    .wrapper{
+        display: flex;
+        position: relative;
+        bottom: 20px;
+      }
+      .wrapper .static-txt{
+        color: red;
+        font-size: 40px;
+        font-weight: 400;
+        position: relative;
+        top: 11px;
+      }
+      .wrapper .dynamic-txts{
+        height: 90px;
+        line-height: 90px;
+        overflow: hidden;
+      }
+      .dynamic-txts li{
+        list-style: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        right: 15px;
+        animation: slide 12s steps(4) infinite;
+      }
+      @keyframes slide {
+        100%{
+          top: -360px;
+        }
+      }
+      .dynamic-txts li span{
+        position: relative;
+        margin: 5px 0;
+        line-height: 90px;
+      }
+      .dynamic-txts li span::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #ECF0F3;
+        border-left: 2px solid #FC6D6D;
+        animation: typing 3s steps(10) infinite;
+      }
+      @keyframes typing {
+        40%, 60%{
+          left: calc(100% + 30px);
+        }
+        100%{
+          left: 0;
+        }
+      }
+
     .welcome {
         color: #000;
         padding-top: 80px;
@@ -538,6 +705,8 @@ body {
     .welcome .deskripsi {
         text-align: justify;
         font-family: 'Kanit', sans-serif;
+        position: relative;
+        bottom: 40px;
     }
     .imagehome{
     width: 100%;
