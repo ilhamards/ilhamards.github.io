@@ -68,7 +68,7 @@ body {
 
 .welcome {
     color: #000;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .welcome .small {
@@ -105,7 +105,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40%;
+    padding-top: 20%;
     border-radius: 20px;
 }
 
