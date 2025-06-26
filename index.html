@@ -9,21 +9,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTOFOLIO - M ILHAM ARDIANSA</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   </head>
-<body style="background-color: #ECF0F3;">
+<body>
+  <div id="preloader">
+  <div class="loader"></div>
+</div>
+
+    <div class="spotlight blue"></div>
+  <div class="spotlight red"></div>
+
     <div class="container">
-    <section class="section" id="#home">
-        <div class="row">
-            <div class="col-12 col-lg-8">
-        <div class="welcome">
-            <small class="small">WELCOME TO MY WORLD</small><br />
-            <span class="myname">Hi, I`m <span class="myname2">M ilham Ardiansa</span></span><br />
+      <section class="section mb-4">
+            <div class="welcome">
+            <small class="small text-white">WELCOME TO MY WORLD</small><br />
+            <span class="myname text-white">Hi, I`m <span class="myname2">M ilham Ardiansa</span></span><br />
             <div class="wrapper">
-              <div class="static-txt">a</div>
+              <div class="static-txt">A</div>
               <ul class="dynamic-txts">
                 <li><span>DEVELOPER.</span></li>
                 <li><span>FULLSTACK DEV.</span></li>
@@ -33,594 +40,77 @@
             </div>
           <!-- <span class="skills" style="margin-right: 10px;">a</span> <span id="skills" class="skills" style="color: black;"> </span> -->
               
-            <p class="deskripsi">saya seorang mahasiswa aktif dari universitas merdeka malang,. Sebagai fresh graduate saya  memiliki motivasi dan dedikasi yang tinggi untuk memulai carrer saya. Saya terlatih dalam pengembangan backend developer dan front end developer yang telah mendalami bidang ini selama beberapa tahun dari sekolah menegah kejuruhan.</p>
-            <p class="deskripsi">Sebagai Web Developer dengan lebih dari 2 tahun pengalaman, saya memiliki keahlian mendalam dalam fullstack development menggunakan bahasa pemrograman PHP, terutama dalam kerangka kerja Laravel dan Codeigniter. Saya juga memiliki kemampuan yang kuat dalam problem solving, baik itu dalam merancang algoritma maupun melakukan perbaikan pada situs web yang saya kelola.</p>
+          <p class="deskripsi text-white">
+            Saya adalah seorang mahasiswa aktif di Universitas Merdeka Malang, saat ini berada di semester 6 dengan IPK 3.87. Selain menempuh pendidikan, saya juga berprofesi sebagai fullstack developer dengan pengalaman lebih dari 2 tahun dalam membangun aplikasi web modern. Saya juga aktif sebagai freelancer di platform <strong>Fastwork.id</strong> dan <strong>Facebook</strong>, melayani berbagai proyek pengembangan website dan sistem digital.
+          </p>
+
             <br /><br />
-             <div class="welcome2">
+             <div class="welcome2 mb-3">
               <div class="row">
                 <div class="col">
-                  <span class="findme">FIND ME HERE</span>
+                  <span class="findme text-white">FIND ME HERE</span>
                   <br/>
                   <br/>
-                  <a href="https://api.whatsapp.com/send/?phone=6281334654243&text&type=phone_number&app_absent=0" class="btn-sosial"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                      <a href="https://www.facebook.com/ilham.sellerr" class="btn-sosial"><i class="fa fa-facebook"></i></a>
-                      <a href="https://www.instagram.com/ilhamards_" class="btn-sosial"><i class="fa fa-instagram"></i></a>
-                      <a href="https://github.com/ilhamardiansa" class="btn-sosial"><i class="fa fa-github"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=6281233972458&text&type=phone_number&app_absent=0" class="btn-sosial">
+                      <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/ilham.sellerr" class="btn-sosial">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ilhamards_" class="btn-sosial">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/ilhamardiansa" class="btn-sosial">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="/cv.pdf" class="btn-sosial">
+                      <i class="fas fa-file"></i>
+                    </a>
                 </div>
               </div>
              </div>
         </div>
-    </div>
-    <div class="col-12 col-lg-4">
-        <img src="wajah.png" alt="Wajah muka" class="imagehome">
-      </div>
-    </section>
-      <hr>
-    <section class="section" id="#project">
-      <center>
-      <div class="headertitle"> <b>MY PROJECT</b></div>
-<small class="desktitle mb-4"> VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK </small> <br/><br/>
-      <div class="card-porto">
-        <div class="row">
+      </section>
 
-          <div class="col-12 col-md-6 col-xl-4 mb-4">
-            <div class="card-deck" data-aos="zoom-in" data-aos-duration="1500">
-            <button type="button" class="card link"  data-toggle="modal" data-target=".modalporto1">
-              <img class="card-img-top" src="porto1.png" alt="portofolio">
-              <div class="card-body" style="width: 100%;">
-                <div class="row">
-                  <div class="col-6">
-                    <h6 style="color: red;" class="text-start">WEBSITE</h6>
-                  </div>
-                  <div class="col-6">
-                    <h6 style="color: gray;" class="text-end">Codeigniter 3</h6>
-                  </div>
-                </div>
-                <h5 class="card-text text-start" style="text-align: right;">Website Panel SMM - ILHSMM</h5>
-              </div>
-            </button> 
-          </div>
-        </div>
-          
-        
-        <div class="col-12 col-md-6 col-xl-4 mb-4">
-          <div class="card-deck" data-aos="zoom-in" data-aos-duration="1500">
-          <button type="button" class="card link"  data-toggle="modal" data-target=".modalporto2">
-            <img class="card-img-top" src="porto2.png" alt="portofolio">
-            <div class="card-body" style="width: 100%;">
-              <div class="row">
-                <div class="col-6">
-                  <h6 style="color: red;" class="text-start">WEBSITE</h6>
-                </div>
-                <div class="col-6">
-                  <h6 style="color: gray;" class="text-end">Codeigniter 3</h6>
-                </div>
-              </div>
-              <h5 class="card-text text-start" style="text-align: right;">Website Panel Pulsa - ILHPAY</h5>
-            </div>
-          </button> 
-        </div>
-      </div>
 
-      
-      <div class="col-12 col-md-6 col-xl-4 mb-4">
-        <div class="card-deck" data-aos="zoom-in" data-aos-duration="1500">
-        <button type="button" class="card link"  data-toggle="modal" data-target=".modalporto3">
-          <img class="card-img-top" src="porto3.png" alt="portofolio">
-          <div class="card-body" style="width: 100%;">
-            <div class="row">
-              <div class="col-6">
-                <h6 style="color: red;" class="text-start">WEBSITE</h6>
+      <section class="section mb-4" style="margin-top: 20px;">
+        <h3 class="text-center text-white mt-4 mb-4">Skill & Education</h3>
+        <div class="card-container" data-aos="fade-up">
+              <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h4 class="text-white">Web Development</h4>
+                <p>HTML, CSS, JavaScript, PHP</p>
               </div>
-              <div class="col-6">
-                <h6 style="color: gray;" class="text-end">PHP OOP</h6>
+              <div class="card">
+                <i class="fa-solid fa-database"></i>
+                <h4 class="text-white">Database</h4>
+                <p>MySQL, PostgreSQL</p>
+              </div>
+              <div class="card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h4 class="text-white">Frameworks</h4>
+                <p>Laravel, Codeigniter, Nest JS</p>
               </div>
             </div>
-            <h5 class="card-text text-start" style="text-align: right;">Website Peduli Diriku</h5>
-          </div>
-        </button> 
-      </div>
+
+            <!-- Education -->
+            <div class="card-container mt-5" data-aos="fade-up" data-aos-delay="200">
+              <div class="card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h4 class="text-white">Universitas Merdeka Malang</h4>
+                <p>S1 Teknik Informatika (2022 - Sekarang)</p>
+              </div>
+              <div class="card">
+              <i class="fa-solid fa-graduation-cap"></i>
+                <h4 class="text-white">SMK Nmc Malang</h4>
+                <p>Jurusan Rekayasa Perangkat Lunak</p>
+              </div>
+            </div>
+      </section>
+
     </div>
 
-    
-    <div class="col-12 col-md-6 col-xl-4 mb-4">
-      <div class="card-deck" data-aos="zoom-in" data-aos-duration="1500">
-      <button type="button" class="card link"  data-toggle="modal" data-target=".modalporto4">
-        <img class="card-img-top" src="porto4.png" alt="portofolio">
-        <div class="card-body" style="width: 100%;">
-          <div class="row">
-            <div class="col-6">
-              <h6 style="color: red;" class="text-start">WEBSITE</h6>
-            </div>
-            <div class="col-6">
-              <h6 style="color: gray;" class="text-end">Laravel</h6>
-            </div>
-          </div>
-          <h5 class="card-text text-start" style="text-align: right;">Landing Page INDEVPROFILE + CRUD</h5>
-        </div>
-      </button> 
-    </div>
-  </div>
-
-  
-  <div class="col-12 col-md-6 col-xl-4 mb-4">
-    <div class="card-deck" data-aos="zoom-in" data-aos-duration="1500">
-    <button type="button" class="card link"  data-toggle="modal" data-target=".modalporto5">
-      <img class="card-img-top" src="porto5.png" alt="portofolio">
-      <div class="card-body" style="width: 100%;">
-        <div class="row">
-          <div class="col-6">
-            <h6 style="color: red;" class="text-start">WEBSITE</h6>
-          </div>
-          <div class="col-6">
-            <h6 style="color: gray;" class="text-end">Laravel</h6>
-          </div>
-        </div>
-        <h5 class="card-text text-start" style="text-align: right;">Website Lelang Mobil</h5>
-      </div>
-    </button> 
-  </div>
-</div>
-
-</center>
-          <!-- MODAL CARD -->
-
-        
-<div class="modal fade modalporto1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content">
-      <button type="button" class="close closemodal rounded-circle" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="modal-body">
-       <div class="row">
-        <div class="col-12 col-xl-4">
-          <img class="imagemodal" src="porto1.png" alt="portofolio">
-        </div>
-        <div class="col-12 col-xl-8">
-          <div class="modalbody2"><br/>
-            <div class="row">
-              <div class="col-6">
-                <h6 style="color: red;" class="text-start">WEBSITE</h6>
-              </div>
-              <div class="col-6">
-                <h6 style="color: gray;" class="text-end">Codeigniter 3</h6>
-              </div>
-            </div>
-          <div class="titlemodal mb-4">Website Panel SMM - ILHSMM</div>
-          <p class="deskripsimodal mb-5" style="text-align: justify;">
-           Website ini di build dengan Codeigniter 3 yang terintegrasi dengan cekmutasi.
-          </p>
-            
-          <a href="#" type="button" class="link btn-lg btnbro">View Project</a>
-          </div>
-        </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-     
-<div class="modal fade modalporto2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content">
-      <button type="button" class="close closemodal rounded-circle" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="modal-body">
-       <div class="row">
-        <div class="col-12 col-xl-4">
-          <img class="imagemodal" src="porto2.png" alt="portofolio">
-        </div>
-        <div class="col-12 col-xl-8">
-          <div class="modalbody2"><br/>
-            <div class="row">
-              <div class="col-6">
-                <h6 style="color: red;" class="text-start">WEBSITE</h6>
-              </div>
-              <div class="col-6">
-                <h6 style="color: gray;" class="text-end">Codeigniter 3</h6>
-              </div>
-            </div>
-          <div class="titlemodal mb-4">Website Panel Pulsa - ILHPAY</div>
-          <p class="deskripsimodal mb-5" style="text-align: justify;">
-           Website ini di build dengan Codeigniter 3 yang terintegrasi dengan cekmutasi.
-          </p>
-            
-          <a href="#" type="button" class="link btn-lg btnbro">View Project</a>
-          </div>
-        </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-     
-<div class="modal fade modalporto3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content">
-      <button type="button" class="close closemodal rounded-circle" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="modal-body">
-       <div class="row">
-        <div class="col-12 col-xl-4">
-          <img class="imagemodal" src="porto3.png" alt="portofolio">
-        </div>
-        <div class="col-12 col-xl-8">
-          <div class="modalbody2"><br/>
-            <div class="row">
-              <div class="col-6">
-                <h6 style="color: red;" class="text-start">WEBSITE</h6>
-              </div>
-              <div class="col-6">
-                <h6 style="color: gray;" class="text-end">PHP OOP</h6>
-              </div>
-            </div>
-          <div class="titlemodal mb-4">Website Peduli Diriku</div>
-          <p class="deskripsimodal mb-5" style="text-align: justify;">
-           Website ini dibangun dengan PHP OOP. yang mengutamakan fitur untuk mengecek data perjalanan user saat virus corona melanda.
-          </p>
-            
-          <a href="#" type="button" class="link btn-lg btnbro">View Project</a>
-          </div>
-        </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-     
-<div class="modal fade modalporto4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content">
-      <button type="button" class="close closemodal rounded-circle" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="modal-body">
-       <div class="row">
-        <div class="col-12 col-xl-4">
-          <img class="imagemodal" src="porto4.png" alt="portofolio">
-        </div>
-        <div class="col-12 col-xl-8">
-          <div class="modalbody2"><br/>
-            <div class="row">
-              <div class="col-6">
-                <h6 style="color: red;" class="text-start">WEBSITE</h6>
-              </div>
-              <div class="col-6">
-                <h6 style="color: gray;" class="text-end">Laravel</h6>
-              </div>
-            </div>
-          <div class="titlemodal mb-4">Website Landing Page INDEVPROFILE + CRUD</div>
-          <p class="deskripsimodal mb-5" style="text-align: justify;">
-           Website ini di build dengan Laravel. Website ini juga menggunakan fitur CRUD yang mengutamakan kemudahaan saat melakukan pergantian/penambahan content.
-          </p>
-            
-          <a href="#" type="button" class="link btn-lg btnbro">View Project</a>
-          </div>
-        </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-     
-<div class="modal fade modalporto5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content">
-      <button type="button" class="close closemodal rounded-circle" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="modal-body">
-       <div class="row">
-        <div class="col-12 col-xl-4">
-          <img class="imagemodal" src="porto5.png" alt="portofolio">
-        </div>
-        <div class="col-12 col-xl-8">
-          <div class="modalbody2"><br/>
-            <div class="row">
-              <div class="col-6">
-                <h6 style="color: red;" class="text-start">WEBSITE</h6>
-              </div>
-              <div class="col-6">
-                <h6 style="color: gray;" class="text-end">Laravel</h6>
-              </div>
-            </div>
-          <div class="titlemodal mb-4">Website Lelang Mobil</div>
-          <p class="deskripsimodal mb-5" style="text-align: justify;">
-           Website ini di build dengan Laravel. Website ini bertujuan untuk memudahkan user saat melakukan bid mobil tanpa harus ke tempat lelang langsung. user dapat mengecek bid tertinggi dan melakukan bid sesuai jam lelang yg berlaku.
-          </p>
-            
-          <a href="#" type="button" class="link btn-lg btnbro">View Project</a>
-          </div>
-        </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    </section>
-    <hr>
-    <section class="section" id="resume">
-      <center>
-      <div class="headertitle"> <b>MY RESUME</b></div>
-      <small class="desktitle mb-4"> 2+ YEARS OF EXPERIENCE </small> <br/><br/><br/>
-      <div id="accordion"></div>
-      <div class="btn-group flex-wrap mr-2 mb-5 btngroupbro" role="group" aria-label="First group" id="buttongroupawal">
-        <a type="button" class="btn btngroupbro2 active" style="color:red;" data-toggle="collapse" data-target="#education" aria-expanded="true" aria-controls="collapseOne">Education</a>
-        <a type="button" class="btn btngroupbro2" style="color:red;" data-toggle="collapse" data-target="#skiils" aria-expanded="true" aria-controls="collapseOne">Skills</a>
-        <a type="button" class="btn btngroupbro2" style="color:red;"  data-toggle="collapse" data-target="#experience" aria-expanded="true" aria-controls="collapseOne">Experience</a>
-      </div>
-
-
-      <div id="education" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 col-lg-6">
-            <h1>Education</h1>
-              <!-- Timeline Area-->
-              <div class="apland-timeline-area">
-                  <!-- Single Timeline Content-->
-                  <div class="single-timeline-area">
-                      <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                          <p>2019 - 2022</p>
-                      </div>
-                      <div class="row">
-                          <div class="col-12 col-md-12 col-lg-12">
-                              <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                   <div class="timeline-text" style="text-align: left;">
-                                    <h5>REKAYASA PERANGKAT LUNAK</h5>
-                                    <small>SMK NMC MALANG </small>
-                                  </div>
-                              </div>
-                          </div>
-
-                      </div>
-                  </div>
-                  <!-- Single Timeline Content-->
-                  <div class="single-timeline-area">
-                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                        <p>2022 - NOW</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                 <div class="timeline-text" style="text-align: left;">
-                                  <h5>S1 SISTEM INFORMASI</h5>
-                                  <small>UNIVERSITAS MERDEKA MALANG </small>
-                                </div>
-                            </div>
-                        </div>
-                        
-                      </div>
-                  </div>
-                 
-              </div>
-          </div>
-          <div class="col-12 col-lg-6">
-            <h1>Job Experience</h1>
-            <!-- Timeline Area-->
-            <div class="apland-timeline-area">
-                <!-- Single Timeline Content-->
-                <div class="single-timeline-area">
-                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                        <p>2020 - 2021</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                               <div class="timeline-text" style="text-align: left;">
-                                   <h5>DIGITAL MARKETING</h5>
-                                   <small>IMPRODUK DIGITAL - MALANG</small>
-                                   <hr>
-                                    <li>
-                                      Riset keyword untuk pemasaran sebuah produk
-                                    </li>
-                                    <li>
-                                      Melakukan promosi digital secara online
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                 <!-- Timeline Area-->
-            <div class="apland-timeline-area">
-              <!-- Single Timeline Content-->
-              <div class="single-timeline-area">
-                  <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                      <p>2023 - 2024</p>
-                  </div>
-                  <div class="row">
-                      <div class="col-12 col-md-12 col-lg-12">
-                          <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                             <div class="timeline-text" style="text-align: left;">
-                                 <h5>FULLSTACK DEVELOPER</h5>
-                                 <small>CV Optimis - MALANG</small>
-                                 <hr>
-                                  <li>
-                                    Melakukan pembuatan website sesuai alur yang telah di sediakan menggunakan laravel dan nest js
-                                  </li>
-                                  <li>
-                                    Membuat dokumentasi penggunaan API Backend
-                                  </li>
-                                  <li>
-                                    Melakukan integrasi API dan Payment gateway
-                                  </li>
-                                  <li>
-                                    Membuat restfull API dengan nest js atau laravel
-                                  </li>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-                <!-- Single Timeline Content
-                <div class="single-timeline-area">
-                    <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                        <p>2020</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                <div class="timeline-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                                <div class="timeline-text">
-                                    <h6>Updated 4.4.0</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                      
-                    </div>
-                </div> -->
-               
-            </div>
-        </div>
-      </div>
-      
-  </div>
-          </div>
-
-
-      <div id="skiils" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-      <h5 class="mb-5">BEST MY SKIILS ON</h5>
-<ul class="mb-5 skiilss">
-    <li style="--accent-color:#FCBA35">
-        <div class="icon"><img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg"></div>
-        <div class="title">Codeigniter</div>
-    </li>
-    <li style="--accent-color:#60c5a6">
-      <div class="icon"><img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg"></div>
-      <div class="title">Laravel</div>
-  </li>
-  <li style="--accent-color:#FCBA35">
-    <div class="icon"><img src="https://cdn.worldvectorlogo.com/logos/bootstrap-icon.svg"></div>
-    <div class="title">Bootstrap</div>
-</li>
-<li style="--accent-color:#f20071">
-  <div class="icon"><img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"></div>
-  <div class="title">Tailwind CSS</div>
-</li>
-    <li style="--accent-color:#FCBA35">
-      <div class="icon"><img src="https://cdn.worldvectorlogo.com/logos/jquery-2.svg"></div>
-      <div class="title">Jquery</div>
-  </li>
-</ul>
-</div>
-<div id="experience" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-  <div class="container">
-  <div class="row">
-    <div class="col-12 col-lg-6">
-      <h1>Education</h1>
-        <!-- Timeline Area-->
-        <div class="apland-timeline-area">
-            <!-- Single Timeline Content-->
-            <div class="single-timeline-area">
-                <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                    <p>2019 - 2022</p>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                             <div class="timeline-text" style="text-align: left;">
-                              <h5>REKAYASA PERANGKAT LUNAK</h5>
-                              <small>SMK NMC MALANG </small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Single Timeline Content-->
-            <div class="single-timeline-area">
-              <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                  <p>2022 - NOW</p>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-md-12 col-lg-12">
-                      <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                           <div class="timeline-text" style="text-align: left;">
-                            <h5>S1 SISTEM INFORMASI</h5>
-                            <small>UNIVERSITAS MERDEKA MALANG </small>
-                          </div>
-                      </div>
-                  </div>
-                  
-                </div>
-            </div>
-           
-        </div>
-    </div>
-    <div class="col-12 col-lg-6">
-      <h1>Job Experience</h1>
-      <!-- Timeline Area-->
-      <div class="apland-timeline-area">
-          <!-- Single Timeline Content-->
-          <div class="single-timeline-area">
-              <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                  <p>2020 - 2021</p>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-md-12 col-lg-12">
-                      <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                         <div class="timeline-text" style="text-align: left;">
-                             <h5>DIGITAL MARKETING</h5>
-                             <small>IMPRODUK DIGITAL - MALANG</small>
-                             <hr>
-                              <li>
-                                Riset keyword untuk pemasaran sebuah produk
-                              </li>
-                              <li>
-                                Melakukan promosi digital secara online
-                              </li>
-                          </div>
-                      </div>
-                  </div>
-
-              </div>
-          </div>
-          <!-- Single Timeline Content
-          <div class="single-timeline-area">
-              <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                  <p>2020</p>
-              </div>
-              <div class="row">
-                  <div class="col-12 col-md-12 col-lg-12">
-                      <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                          <div class="timeline-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                          <div class="timeline-text">
-                              <h6>Updated 4.4.0</h6>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                          </div>
-                      </div>
-                  </div>
-                
-              </div>
-          </div> -->
-         
-      </div>
-  </div>
-</div>
-
-</div>
-    </div>
-    </center>
-    </section>
-
-<hr>
-<footer class="footer" style="text-align: center;">
+<footer class="footer text-muted" style="text-align: center;">
       © 2023. All rights reserved by M Ilham Ardiansa.
     </footer>
 
@@ -665,5 +155,20 @@ $(document.getElementById("buttongroupawal")).on('click',function(){
   <script>
     AOS.init();
   </script>
+<script>
+ const delay = 1000;
+
+  window.addEventListener("load", function () {
+    setTimeout(() => {
+      const preloader = document.getElementById("preloader");
+      preloader.style.opacity = "0";
+      preloader.style.transform = "scale(1.1)";
+      preloader.style.visibility = "hidden";
+      preloader.style.pointerEvents = "none";
+
+      document.body.classList.add("loaded");
+    }, delay);
+  });
+</script>
 </body>
 </html>
