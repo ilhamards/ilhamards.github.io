@@ -6,7 +6,7 @@
           <img src="https://placehold.jp/900x300.png" alt="Logo">
         </div>
         <span class="footer-text-one mb-2">
-          ILHDEV <span class="tagline">| Professional Website Development for Your Business.</span>
+          ILHDEV <span class="tagline">| Jasa Website Murah Dan Profesional.</span>
         </span>
 
         <div class="contact-info mt-3">
@@ -27,11 +27,11 @@
       <div class="col-md-3 mb-4 footer-links">
         <h6>Konten</h6>
         <ul class="list-unstyled">
-          <li><a href="#">Beranda</a></li>
-          <li><a href="#">Portofolio</a></li>
-          <li><a href="#">Paket Website</a></li>
-          <li><a href="#">Tentang Kami</a></li>
-          <li><a href="#">Kontak</a></li>
+          <li><a href="<?= BASE_URL ?>">Beranda</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/portofolio">Portofolio</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/paket-website">Paket Website</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/tentang-kami">Tentang Kami</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/kontak">Kontak</a></li>
         </ul>
       </div>
 
@@ -124,8 +124,7 @@ $(document).ready(function(){
 
   owl.trigger('refresh.owl.carousel');
 });
-</script>
-<script>
+
 document.addEventListener("DOMContentLoaded", function () {
     let currentPath = window.location.pathname.replace(/^\/|\/$/g, ""); 
     let uriParts = currentPath.split("/"); 
@@ -146,6 +145,26 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      filterButtons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      const filter = button.getAttribute("data-filter");
+
+      portfolioItems.forEach(item => {
+        if (filter === "all" || item.getAttribute("data-category") === filter) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    });
+  });
 </script>
 </body>
 </html>

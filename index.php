@@ -1,5 +1,5 @@
 <?php include __DIR__ . '/layouts/header.php'; ?>
-
+<main>
 <div class="content container my-4 px-3">
     <div class="section-one d-flex flex-column justify-content-center align-items-center">
       
@@ -24,20 +24,22 @@
         Solusi Website <span class="highlight">Murah dan Profesional</span><br>
         untuk Bisnis Anda!.
       </h1>
-      <span class="deskripsi-one text-center mb-4">
+      <span class="deskripsi-one text-center mb-3">
         Dapatkan website yang menarik dan fungsional, dirancang khusus untuk memenuhi kebutuhan bisnis Anda!
       </span>
 
-     <div class="d-flex gap-3 justify-content-center mt-4 flex-wrap mb-4">
-        <button class="btn btn-custom-one">
+     <div class="d-flex gap-3 justify-content-center mt-3 flex-wrap mb-4">
+       <a href="<?= BASE_URL ?>/pages/portofolio" class="btn btn-custom-one">
           <i class="ph-fill ph-image" style="font-size: 1.2rem;"></i> Portofolio
-        </button>
-        <button class="btn btn-custom-two">
+        </a>
+
+        <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-custom-two">
           <i class="ph-fill ph-chat-circle-text" style="font-size: 1.2rem;"></i> Konsultasi
-        </button>
-        <button class="btn btn-custom-three">
+        </a>
+
+        <a href="<?= BASE_URL ?>/pages/paket-website" class="btn btn-custom-three">
           <i class="ph-fill ph-package" style="font-size: 1.2rem;"></i> Lihat Paket
-        </button>
+        </a>
       </div>
 
     </div>
@@ -250,25 +252,23 @@
 
 
 <div class="content-2 container my-4 px-3 mb-4">
-  <div class="d-flex justify-content-center flex-wrap mb-2 flex-column align-items-center">
-          <div class="text-center mb-1">
-              <p class="deskripsi-two">
-                  Telah dipercaya oleh:
-              </p>
+  <div class="d-flex justify-content-center flex-wrap mt-3 mb-2 flex-column align-items-center">
+        <div class="text-center mt-3 mb-3">
+              <h2 class="text-two">Teknologi dan Partner Kami</h2>
+              <p class="deskripsi-two">Dengan dukungan teknologi canggih dan kemitraan strategis, kami mewujudkan website yang fungsional, aman, dan dapat diandalkan untuk bisnis Anda.</p>
           </div>
 
-           <div class="row justify-content-center align-items-center g-4">
-            <div class="col-3 col-sm-3 col-md-2 client-logo">
-              <img src="https://placehold.co/150x150" alt="Logo 1" class="img-fluid">
-            </div>
-            <div class="col-3 col-sm-3 col-md-2 client-logo">
-              <img src="https://placehold.co/150x150" alt="Logo 2" class="img-fluid">
-            </div>
-            <div class="col-3 col-sm-3 col-md-2 client-logo">
-              <img src="https://placehold.co/150x150" alt="Logo 3" class="img-fluid">
-            </div>
-          </div>
+         <div class="d-flex flex-wrap justify-content-center align-items-center">
+          <img src="<?= BASE_URL ?>/image/google.webp" alt="Google" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/idcloud.webp" alt="Cloud" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/cloudflare.png" alt="Cloudflare" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/vs.png" alt="Visual Studio Code" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/pinterest.png" alt="Pinterest" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/nodejs.png" alt="Node.js" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/laravel.png" alt="Laravel" class="partner-logo">
+          <img src="<?= BASE_URL ?>/image/ci.png" alt="CodeIgniter" class="partner-logo">
+        </div>
   </div>
 </div>
-
+</main>
 <?php include __DIR__ . '/layouts/footer.php'; ?>

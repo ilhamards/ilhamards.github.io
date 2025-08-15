@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ILHDEV - Professional Website Development for Your Business.</title>
+    <title>ILHDEV - Jasa Website Murah Dan Profesional.</title>
 
     <!-- Favicon -->
     <link rel="icon" href="https://placehold.jp/150x150.png" type="image/x-icon">
@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://placehold.jp/150x150.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://placehold.jp/150x150.png">
 
-    <meta name="description" content="Professional Website Development for Your Business.">
+    <meta name="description" content="Jasa Website Murah Dan Profesional">
     <meta name="author" content="ILHPEDIA">
 
     <?php include __DIR__ . '/../config.php'; ?>
@@ -69,7 +69,7 @@
                     <a class="nav-link <?= isActive('portofolio') ?>" href="<?= BASE_URL ?>/pages/portofolio">Portofolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?= isActive('pages-website') ?>" href="<?= BASE_URL ?>/pages/pages-website">Paket Website</a>
+                    <a class="nav-link <?= isActive('paket-website') ?>" href="<?= BASE_URL ?>/pages/paket-website">Paket Website</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?= isActive('tentang-kami') ?>" href="<?= BASE_URL ?>/pages/tentang-kami">Tentang Kami</a>
