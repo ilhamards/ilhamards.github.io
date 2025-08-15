@@ -15,9 +15,13 @@
     <meta name="description" content="Professional Website Development for Your Business.">
     <meta name="author" content="ILHPEDIA">
 
-    <!-- Offline Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <?php include __DIR__ . '/../config.php'; ?>
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/owl.caraousel.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/datatable.min.css">
 
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
@@ -25,11 +29,6 @@
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css" />
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-    <script src="./js/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./css/owl.caraousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./css/datatable.min.css">
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -51,20 +50,32 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Beranda</a>
+              <?php
+                function isActive($page) {
+                    $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'); 
+                    $uriParts = explode('/', $uri); 
+
+                    if ($page === '' && (empty($uri) || end($uriParts) === 'ilhamards.github.io')) {
+                        return 'active';
+                    }
+
+                    return end($uriParts) === $page ? 'active' : '';
+                }
+                ?>
+                            <li class="nav-item">
+                    <a class="nav-link <?= isActive('') ?>" href="<?= BASE_URL ?>">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portofolio</a>
+                    <a class="nav-link <?= isActive('portofolio') ?>" href="<?= BASE_URL ?>/pages/portofolio">Portofolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Paket Website</a>
+                    <a class="nav-link <?= isActive('pages-website') ?>" href="<?= BASE_URL ?>/pages/pages-website">Paket Website</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link <?= isActive('tentang-kami') ?>" href="<?= BASE_URL ?>/pages/tentang-kami">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link <?= isActive('kontak') ?>" href="<?= BASE_URL ?>/pages/kontak">Kontak</a>
                 </li>
             </ul>
 

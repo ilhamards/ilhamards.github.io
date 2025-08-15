@@ -51,23 +51,23 @@
   </div>
 </footer>
 <nav class="mobile-bottom-nav d-md-none">
-    <a href="/" class="nav-link active text-center">
+    <a href="<?= BASE_URL ?>" class="nav-link text-center">
         <i class="ph-bold ph-house fs-4"></i>
         <div class="small">Beranda</div>
     </a>
-    <a href="/portofolio" class="nav-link text-center">
+    <a href="<?= BASE_URL ?>/pages/portofolio" class="nav-link text-center">
         <i class="ph-bold ph-briefcase fs-4"></i>
         <div class="small">Portofolio</div>
     </a>
-    <a href="/paket-website" class="nav-link text-center">
+    <a href="<?= BASE_URL ?>/pages/paket-website" class="nav-link text-center">
         <i class="ph-bold ph-globe fs-4"></i>
         <div class="small">Paket</div>
     </a>
-    <a href="/tentang-kami" class="nav-link text-center">
+    <a href="<?= BASE_URL ?>/pages/tentang-kami" class="nav-link text-center">
         <i class="ph-bold ph-info fs-4"></i>
         <div class="small">Tentang</div>
     </a>
-    <a href="/kontak" class="nav-link text-center">
+    <a href="<?= BASE_URL ?>/pages/kontak" class="nav-link text-center">
         <i class="ph-bold ph-phone fs-4"></i>
         <div class="small">Kontak</div>
     </a>
@@ -77,11 +77,11 @@
 
 
 <!-- Offline jQuery -->
-<script src="./js/jquery.min.js"></script>
-<script src="./js/owl.caraousel.min.js"></script>
-<!-- Offline Bootstrap JS -->
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/datatables.min.js"></script>
+<script src="<?= BASE_URL ?>/js/jquery.min.js"></script>
+<script src="<?= BASE_URL ?>/js/owl.caraousel.min.js"></script>
+<script src="<?= BASE_URL ?>/js/bootstrap.bundle.min.js"></script>
+<script src="<?= BASE_URL ?>/js/datatables.min.js"></script>
+<script src="<?= BASE_URL ?>/js/swiper-bundle.min.js"></script>
 <script>
   var swiper = new Swiper(".mySwiper", {
     loop: true,
@@ -123,6 +123,28 @@ $(document).ready(function(){
   });
 
   owl.trigger('refresh.owl.carousel');
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let currentPath = window.location.pathname.replace(/^\/|\/$/g, ""); 
+    let uriParts = currentPath.split("/"); 
+    let lastPart = uriParts[uriParts.length - 1]; 
+
+    document.querySelectorAll(".mobile-bottom-nav .nav-link").forEach(link => {
+        let href = link.getAttribute("href").replace(/^\.\/|\/$/g, ""); 
+        let hrefParts = href.split("/");
+        let hrefLast = hrefParts[hrefParts.length - 1];
+
+        if (hrefLast === "" && (currentPath === "" || lastPart === "ilhamards.github.io")) {
+            link.classList.add("active");
+        }
+        else if (lastPart === hrefLast) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
+        }
+    });
 });
 </script>
 </body>
