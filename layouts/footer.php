@@ -37,14 +37,14 @@
 
       <div class="col-md-3 mb-4 text-center text-md-start footer-actions">
         <div class="d-grid gap-2 mb-3">
-          <a href="#" class="btn btn-outline-light btn-lg rounded-pill">
+          <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" class="btn btn-outline-light btn-lg rounded-pill">
             <i class="ph-fill ph-whatsapp-logo me-2"></i> Konsultasi
           </a>
         </div>
         <div class="d-flex gap-3 mt-3 justify-content-center">
-          <a href="#" class="social-link"><i class="ph-fill ph-facebook-logo"></i></a>
-          <a href="#" class="social-link"><i class="ph-fill ph-instagram-logo"></i></a>
-          <a href="#" class="social-link"><i class="ph-fill ph-linkedin-logo"></i></a>
+          <a href="https://www.facebook.com/ilham.sellerr" class="social-link"><i class="ph-fill ph-facebook-logo"></i></a>
+          <a href="https://www.instagram.com/ilhdev" class="social-link"><i class="ph-fill ph-instagram-logo"></i></a>
+          <a href="https://www.linkedin.com/in/muhamat-ilham-ardiansa-b4256923a/" class="social-link"><i class="ph-fill ph-linkedin-logo"></i></a>
         </div>
       </div>
     </div>

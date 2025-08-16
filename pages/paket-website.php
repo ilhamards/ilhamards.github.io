@@ -24,7 +24,7 @@
                           <li>Fitur by Request</li>
                       </ul>
                     <div class="mt-auto">
-                <a href="#" 
+                <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" 
                   class="btn btn-custom-three w-100 mt-3" 
                   target="_blank" 
                   style="border-radius: 10px; padding: 12px 8px; display: flex; justify-content: center; align-items: center;">
@@ -47,7 +47,7 @@
                           <li>Fitur by Request</li>
                       </ul>
                     <div class="mt-auto">
-                <a href="#" 
+                <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" 
                   class="btn btn-custom-three w-100 mt-3" 
                   target="_blank" 
                   style="border-radius: 10px; padding: 12px 8px; display: flex; justify-content: center; align-items: center;">
@@ -71,7 +71,7 @@
                           <li>Fitur by Request</li>
                       </ul>
                     <div class="mt-auto">
-                <a href="#" 
+                <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" 
                   class="btn btn-custom-three w-100 mt-3" 
                   target="_blank" 
                   style="border-radius: 10px; padding: 12px 8px; display: flex; justify-content: center; align-items: center;">
@@ -94,7 +94,7 @@
                           <li>SEO & Optimasi</li>
                       </ul>
                       <div class="mt-auto">
-                <a href="#" 
+                <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" 
                   class="btn btn-custom-three w-100 mt-3" 
                   target="_blank" 
                   style="border-radius: 10px; padding: 12px 8px; display: flex; justify-content: center; align-items: center;">

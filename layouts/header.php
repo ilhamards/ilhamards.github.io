@@ -38,14 +38,14 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
+        <a class="navbar-brand d-flex align-items-center" href="<?= BASE_URL ?>">
             <img src="https://placehold.jp/900x300.png" alt="Logo">
         </a>
 
         <div class="social-icons d-flex d-lg-none ms-auto">
-            <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
-            <a href="#"><i class="ph-fill ph-linkedin-logo"></i></a>
-            <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+            <a href="https://www.instagram.com/ilhdev"><i class="ph-fill ph-instagram-logo"></i></a>
+            <a href="https://www.linkedin.com/in/muhamat-ilham-ardiansa-b4256923a/"><i class="ph-fill ph-linkedin-logo"></i></a>
+            <a href="https://www.facebook.com/ilham.sellerr"><i class="ph-fill ph-facebook-logo"></i></a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -80,9 +80,9 @@
             </ul>
 
             <div class="social-icons d-none d-lg-flex">
-                <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
-                <a href="#"><i class="ph-fill ph-linkedin-logo"></i></a>
-                <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+                 <a href="https://www.instagram.com/ilhdev"><i class="ph-fill ph-instagram-logo"></i></a>
+                <a href="https://www.linkedin.com/in/muhamat-ilham-ardiansa-b4256923a/"><i class="ph-fill ph-linkedin-logo"></i></a>
+                <a href="https://www.facebook.com/ilham.sellerr"><i class="ph-fill ph-facebook-logo"></i></a>
             </div>
         </div>
     </div>

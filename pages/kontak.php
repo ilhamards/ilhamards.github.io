@@ -22,7 +22,7 @@
                         </p>
                         <p class="mb-4"><strong>+62 812-3456-7890</strong></p>
                         <div class="mt-auto d-flex justify-content-center">
-                            <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-custom-three d-flex align-items-center justify-content-center">
+                            <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" target="_blank" class="btn btn-custom-three d-flex align-items-center justify-content-center">
                                 <i class="ph-fill ph-phone me-2" style="font-size: 1.2rem;"></i> Hubungi Kami
                             </a>
                         </div>
