@@ -10,7 +10,7 @@
              <div class="ilhdev-about row w-100 align-items-center mt-5 mb-2 gx-5">
                 <div class="col-12 col-md-5 text-center mb-4">
                     <div class="img-wrapper" style="overflow: hidden; border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.15);">
-                        <img src="https://placehold.co/500x300" alt="ILHDEV Team" class="img-fluid transition-scale" style="transition: transform 0.3s ease;">
+                        <img src="<?= BASE_URL ?>/image/tentang-kami.png" alt="ILHDEV Team" class="img-fluid transition-scale" style="transition: transform 0.3s ease;">
                     </div>
                 </div>
 

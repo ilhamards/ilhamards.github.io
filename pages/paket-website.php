@@ -90,8 +90,10 @@
                           <li>Web Custom Sesuai Request</li>
                           <li>Desain Unik</li>
                           <li>Mobile Friendly</li>
+                          <li>Free hosting 1 bulan</li>
                           <li>Email & Fitur Tambahan</li>
                           <li>SEO & Optimasi</li>
+                          <li>Fitur by Request</li>
                       </ul>
                       <div class="mt-auto">
                 <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" 

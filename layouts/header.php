@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ <?php include __DIR__ . '/../config.php'; ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ILHDEV - Jasa Website Murah Dan Profesional.</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="https://placehold.jp/150x150.png" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://placehold.jp/150x150.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://placehold.jp/150x150.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://placehold.jp/150x150.png">
+    <link rel="icon" href="<?= BASE_URL ?>/image/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= BASE_URL ?>/image/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= BASE_URL ?>/image/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= BASE_URL ?>/image/favicon.png">
 
     <meta name="description" content="Jasa Website Murah Dan Profesional">
     <meta name="author" content="ILHPEDIA">
 
-    <?php include __DIR__ . '/../config.php'; ?>
     <link rel="stylesheet" href="<?= BASE_URL ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/css/style.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/css/swiper-bundle.min.css">
@@ -39,7 +38,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="<?= BASE_URL ?>">
-            <img src="https://placehold.jp/900x300.png" alt="Logo">
+            <img src="<?= BASE_URL ?>/image/logo.png" alt="Logo" width="100">
         </a>
 
         <div class="social-icons d-flex d-lg-none ms-auto">

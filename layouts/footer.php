@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 mb-4 footer-contact">
-        <div class="footer-logo mb-3">
-          <img src="https://placehold.jp/900x300.png" alt="Logo">
+        <div class="footer-logo mb-0">
+            <h2 class="mb-0">ilhdev.com</h2>
         </div>
         <span class="footer-text-one mb-2">
-          ILHDEV <span class="tagline">| Jasa Website Murah Dan Profesional.</span>
+         <span class="tagline">Jasa Website Murah Dan Profesional.</span>
         </span>
 
         <div class="contact-info mt-3">

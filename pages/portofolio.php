@@ -12,33 +12,45 @@
 
             <div class="d-flex flex-wrap gap-2 justify-content-center mt-4 mb-4">
               <button class="filter-btn active" data-filter="all">Semua</button>
-              <button class="filter-btn" data-filter="landing">Topup Games</button>
-              <button class="filter-btn" data-filter="ecommerce">Lainnya</button>
+              <button class="filter-btn" data-filter="topup">Topup Games</button>
+              <button class="filter-btn" data-filter="lainnya">Lainnya</button>
             </div>
 
             <div class="row w-100 g-4">
-              <div class="col-md-3 col-sm-6 portfolio-item" data-category="landing">
+              <div class="col-md-3 col-sm-6 portfolio-item" data-category="topup">
                 <div class="portfolio-card p-3 text-center">
-                  <img src="https://placehold.co/300x200" class="img-fluid mb-2" alt="Portfolio 1">
-                  <div class="portfolio-title">PT ILHPEDIA</div>
+                  <img src="<?= BASE_URL ?>/image/porto-1.png" class="img-fluid mb-2" alt="Portfolio 1">
+                  <div class="portfolio-title">ILHTOPUP</div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 portfolio-item" data-category="company">
+              <div class="col-md-3 col-sm-6 portfolio-item" data-category="topup">
                 <div class="portfolio-card p-3 text-center">
-                  <img src="https://placehold.co/300x200" class="img-fluid mb-2" alt="Portfolio 2">
-                  <div class="portfolio-title">PT ILHPEDIA</div>
+                  <img src="<?= BASE_URL ?>/image/porto-2.png" class="img-fluid mb-2" alt="Portfolio 2">
+                  <div class="portfolio-title">Titanz Store</div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 portfolio-item" data-category="ecommerce">
+              <div class="col-md-3 col-sm-6 portfolio-item" data-category="lainnya">
                 <div class="portfolio-card p-3 text-center">
-                  <img src="https://placehold.co/300x200" class="img-fluid mb-2" alt="Portfolio 3">
-                  <div class="portfolio-title">PT ILHPEDIA</div>
+                  <img src="<?= BASE_URL ?>/image/porto-3.jpg" class="img-fluid mb-2" alt="Portfolio 3">
+                  <div class="portfolio-title">LinkTech Digital</div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 portfolio-item" data-category="property">
+              <div class="col-md-3 col-sm-6 portfolio-item" data-category="lainnya">
                 <div class="portfolio-card p-3 text-center">
-                  <img src="https://placehold.co/300x200" class="img-fluid mb-2" alt="Portfolio 4">
-                  <div class="portfolio-title">PT ILHPEDIA</div>
+                  <img src="<?= BASE_URL ?>/image/porto-4.png" class="img-fluid mb-2" alt="Portfolio 4">
+                  <div class="portfolio-title">ILHSMM</div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 portfolio-item" data-category="lainnya">
+                <div class="portfolio-card p-3 text-center">
+                  <img src="<?= BASE_URL ?>/image/porto-5.png" class="img-fluid mb-2" alt="Portfolio 4">
+                  <div class="portfolio-title">ILHPAY</div>
+                </div>
+              </div>
+                <div class="col-md-3 col-sm-6 portfolio-item" data-category="lainnya">
+                <div class="portfolio-card p-3 text-center">
+                  <img src="<?= BASE_URL ?>/image/porto-5.png" class="img-fluid mb-2" alt="Portfolio 4">
+                  <div class="portfolio-title">Bidders | Website Lelang</div>
                 </div>
               </div>
             </div>

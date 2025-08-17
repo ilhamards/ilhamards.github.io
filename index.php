@@ -7,13 +7,10 @@
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="https://placehold.co/400x150" alt="Slide 1">
+                <img src="<?= BASE_URL ?>/image/banner-1.png" alt="Slide 1">
               </div>
-              <div class="swiper-slide">
-                <img src="https://placehold.co/400x150" alt="Slide 2">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://placehold.co/400x150" alt="Slide 3">
+               <div class="swiper-slide">
+                <img src="<?= BASE_URL ?>/image/banner-1.png" alt="Slide 1">
               </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -39,6 +36,10 @@
 
         <a href="<?= BASE_URL ?>/pages/paket-website" class="btn btn-custom-three">
           <i class="ph-fill ph-package" style="font-size: 1.2rem;"></i> Lihat Paket
+        </a>
+
+        <a href="https://fastwork.id/user/ilhpedia" target="_blank" class="btn btn-custom-fastwork">
+            <i class="ph-fill ph-rocket-launch" style="font-size: 1.2rem;"></i> Fastwork
         </a>
       </div>
 
@@ -183,8 +184,10 @@
                           <li>Web Custom Sesuai Request</li>
                           <li>Desain Unik</li>
                           <li>Mobile Friendly</li>
+                          <li>Free hosting 1 bulan</li>
                           <li>Email & Fitur Tambahan</li>
                           <li>SEO & Optimasi</li>
+                          <li>Fitur by Request</li>
                       </ul>
                       <div class="mt-auto">
                 <a href="https://wa.me/6281233972458?text=Halo%20min,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website,%20apakah%20bisa%20konsultasi%20?" 
@@ -212,27 +215,27 @@
       <!-- Card Example -->
       <div class="item">
         <div class="card card-portfolio">
-          <img src="https://placehold.co/300x200" class="card-img-top" alt="Project 1">
+          <img src="<?= BASE_URL ?>/image/porto-1.png" class="card-img-top" alt="ILHTOPUP">
           <div class="card-body text-center">
-            <h5 class="card-title">Project 1</h5>
+            <h5 class="card-title">ILHTOPUP</h5>
           </div>
         </div>
       </div>
 
       <div class="item">
         <div class="card card-portfolio">
-          <img src="https://placehold.co/300x200" class="card-img-top" alt="Project 2">
+          <img src="<?= BASE_URL ?>/image/porto-2.png" class="card-img-top" alt="Titanz Store">
           <div class="card-body text-center">
-            <h5 class="card-title">Project 2</h5>
+            <h5 class="card-title">Titanz Store</h5>
           </div>
         </div>
       </div>
 
       <div class="item">
         <div class="card card-portfolio">
-          <img src="https://placehold.co/300x200" class="card-img-top" alt="Project 3">
+          <img src="<?= BASE_URL ?>/image/porto-3.jpg" class="card-img-top" alt="Linktech Digital">
           <div class="card-body text-center">
-            <h5 class="card-title">Project 3</h5>
+            <h5 class="card-title">Linktech Digital</h5>
           </div>
         </div>
       </div>
@@ -240,9 +243,8 @@
       
     </div>
       <div class="d-flex justify-content-center text-center">
-        <a href="#" 
-          class="btn btn-custom-three mt-4 w-100 w-md-25" 
-          target="_blank" 
+        <a href="<?= BASE_URL ?>/pages/portofolio" 
+          class="btn btn-custom-three mt-4 w-100 w-md-25"
           style="border-radius: 10px; padding: 12px 8px; display: flex; justify-content: center; align-items: center;max-width:250px;">
           <i class="ph-fill ph-arrow-circle-right" style="font-size: 1.2rem;"></i> Lihat Selengkapnya
         </a>
